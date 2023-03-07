@@ -1,11 +1,10 @@
 pub mod stack;
 pub mod sort;
+pub mod cons_list;
 
 #[cfg(test)]
 mod tests {
     use crate::{stack::{Node, Stack}, sort::bubble_sort};
-
-    use super::*;
 
     #[test]
     fn should_sort_with_bubble_sort() {
